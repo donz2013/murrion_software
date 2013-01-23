@@ -50,6 +50,7 @@ footer {
 <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="ico/favicon.png">
 <link href='http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Elsie|Junge|Raleway' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <basefont face="Raleway, sans-serif">

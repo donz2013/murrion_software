@@ -58,14 +58,16 @@ footer {
 
 <body>
 <div class="row-fluid">
-  <div class="span8 offset1"> <a class="brand" href="#"><img src="img/logoshadow.png"></a> </div>
-  <div class="span2">
-    <address>
-    Cuil Greine House, <br>
-    Link Road, Ballincollig,<br>
-    Co. Cork<br>
-    Phone 021 4928958
-    </address>
+  <div class="span5 offset2"> <br><a class="brand" href="#"><img src="img/logo.png"></a> </div>
+  <div class="span2 offset1">
+    <p align="right">
+    <br><b>Murrion Software Ltd</b><br>
+    Cuil Greine House, Link Road,<br>
+    Ballincollig, Co. Cork<br>    
+    <img src="../img/phone.png"> 021 4928958<br>
+    <img src="../img/tiny_twitter.jpg"> @murrion <br>
+    <img src="../img/tinyskype.png"> murrion.software<br>
+    </p>
   </div>
 </div>
 <div class="row" id="holder">

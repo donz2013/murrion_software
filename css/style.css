@@ -9,7 +9,11 @@
 
 
 /*now my custom styles*/
-
+#holder{
+ min-height: 100%;
+height: auto !important;
+height: 100%;
+}
 
 #spanbg{
 background-color:#fff;

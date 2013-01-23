@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*My Custom Style Sheet*/
+/*I will first import bootstarp css*/
+
+@import url(bootstrap.css);
+
+
+
+/*now my custom styles*/
+
+
+#spanbg{
+background-color:#fff;
+	margin-top:20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+#page{
+
+background-color:#FFFFFF;
+}
+
+	  
+h1{	  
+font-family: 'Elsie', sans-serif;
+}
+
+
+	
+.span3,{
+	background-color:#fff;
+	margin-top:20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+	
+	
+	/*h1 {
+	font-family: 'Crafty Girls', cursive;
+	background-color: #FDCEF5;
+	
+	}*/
+p.textbox{
+padding-left:20px;
+padding-right:20px;
+text-align:justify;
+	}	
+	p.contenttext{
+		padding-left:50px;
+		padding-right:50px;
+		text-align:justify;
+		}
+		
+.footer{
+ height:40px;
+ margin-top:-40px;
+}

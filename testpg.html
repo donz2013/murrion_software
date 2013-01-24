@@ -37,48 +37,55 @@
 </head>
 
 <body>
-<div id="container">
-<div class="row">
-<div class="span10 offset1" id="page">
-<div class="row">
-    <div class="span10">
-	<div class="navbar">
-      <div class="navbar-inner">
-    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Murrion Software</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="divider-vertical"><a href="#">Home</a></li>
-              
-              <li class="dropdown divider-vertical">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Who We Are? <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Team</a></li>
-                </ul>
-              </li>
-              
-              <li class="dropdown divider-vertica'">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">What We Do? <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Benefits</a></li>
-                  <li><a href="#">Support</a></li>
-                </ul>
-              </li>
-              
-              <li class="divider-vertical"><a href="#">Contact Us</a></li>
-            </ul>
-            <form class="navbar-form pull-right">
-              <input class="span1" type="text" placeholder="username">
-              <input class="span1" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
-            </form>
-          </div><!--/.nav-collapse -->	
+<div class="row-fluid">
+  <div class="span5 offset2"> <br><a class="brand" href="#"><img src="img/logo.png"></a> </div>
+  <div class="span2 offset1">
+    <p align="right">
+    <br><b>Murrion Software Ltd</b><br>
+    Cuil Greine House, Link Road,<br>
+    Ballincollig, Co. Cork<br>    
+    <img src="img/phone.png"> 021 4928958<br>
+    <img src="img/tiny_twitter.jpg"> @murrion <br>
+    <img src="img/tinyskype.png"> murrion.software<br>
+    </p>
+  </div>
+</div>
+<div class="row" id="holder">
+  <div class="span10 offset2" id="page"> <!--wrap around contents--> 
+    <!--navbar-->
+    <div class="row">
+      <div class="span10">
+        <div class="navbar">
+          <div class="navbar-inner"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown"> <a href="whoweare.html" class="dropdown-toggle" data-toggle="dropdown">Who We Are? <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="whoweare.html">About Us</a></li>
+                    <li><a href="whoweare.html#ourteam">Our Team</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="whatwedo.html" class="dropdown-toggle" 
+                    data-toggle="dropdown">What We Do? <b class="caret"></b> </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="whatwedo.html">Services</a></li>
+                    <li><a href="whatwedo.html">Benefits</a></li>
+                    <li><a href="whatwedo.html">Support</a></li>
+                  </ul>
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Our Blog</a></li>
+               </ul>
+               <div class="navbar-form">
+              <form class="form-inline">              
+             <label> Client Login: <input class="span2a" type="text" placeholder="Username"></label>
+                <input class="span2a" type="password" placeholder="Password">
+                <button type="submit" class="btn-small"> Sign </button>
+              </form>
+              </div>
+            </div>
+            <!--/.nav-collapse --> 
     </div></div>
     </div><!--End of Row1 span-->    
     </div><!--End Of Row 1 menu bar-->

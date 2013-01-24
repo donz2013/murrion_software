@@ -5,63 +5,66 @@
 /*I will first import bootstarp css*/
 
 @import url(bootstrap.css);
-
-
-
 /*now my custom styles*/
-#holder{
-min-height: 100%;
-height: auto !important;
-height: 100%;
-}
 
-#spanbg{
-background-color: transparent;
+#holder {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom:-5px;
+}
+#spanbg {
+	background-color: transparent;
 	margin-top:20px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
-
-
-#page{
-background-color: #FFF;
- border: 1px solid #d4d4d4;
-}
-
-	  
-h1{	  
-font-family: 'Open Sans Condensed', sans-serif;
+#page {
+	background-color: #FFF;
+	border: 1px solid #d4d4d4;
+	min-height: 100%;
+	margin-bottom:-5px;
 }
 
 
-	
-.span3,{
-	background-color:#fff;
-	margin-top:20px;
+footer {
+	background-color:#666;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	border-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom: -1px;
+	height: 60px;
 }
-	
-	
-	/*h1 {
+
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p.textbox {
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+}
+
+p.contenttext {
+	padding-left:50px;
+	padding-right:50px;
+	text-align:justify;
+}
+
+.span3, {
+ background-color:#fff;
+ margin-top:20px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+/*h1 {
 	font-family: 'Crafty Girls', cursive;
 	background-color: #FDCEF5;
 	
 	}*/
-p.textbox{
-padding-left:20px;
-padding-right:20px;
-text-align:justify;
-	}	
-	p.contenttext{
-		padding-left:50px;
-		padding-right:50px;
-		text-align:justify;
-		}
-		
-.footer{
- height:40px;
- margin-top:-40px;
-}
+

@@ -55,7 +55,7 @@ body {
 
 <div class="row">
   <div class="span5 offset1"> <br><a class="brand" href="#"><img src="img/logo.png"></a> </div>
-  <div class="span2 offset3">
+  <div class="span3 offset2">
     <p align="right">
     <br><b>Murrion Software Ltd</b><br>
     Cuil Greine House, Link Road,<br>

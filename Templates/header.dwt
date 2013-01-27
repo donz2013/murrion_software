@@ -92,12 +92,11 @@ body {
                   <li>
                     <form class="navbar-form form-inline pull-right">
                       <input class="span2a" type="text" placeholder="Username">
-                      </label>
                       <input class="span2a" type="password" placeholder="Password">
                       <button type="submit" class="btn">Sign </button>
                     </form>
                   </li>
-                </ul>
+                </ul> 
               </div>
               <!--/.nav-collapse --> 
               

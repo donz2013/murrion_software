@@ -22,7 +22,7 @@ body {
 	/* padding-top: 60px;*/
      padding-bottom: 40px;
 	height: 100%;
-	padding-bottom: 100px;
+	padding-bottom: 100px; 
 }
 
 
@@ -110,8 +110,26 @@ body {
    
     <div class="row">
       <div class="span10" id="spanbg">
-         <h1>Our Blog</h1>
-         <p><img src="img/murrion logo b&w.jpg" alt="logp" width="150" height="150"></p>
+         <h1 align="center">Murrion Blog</h1>
+         <p align="center"><img src="img/murrion logo b&w.jpg" alt="logp" width="150" height="150"></p><br>
+         <h3 align="center">A typical deployment list</h3>
+         <p class="contenttext">
+<br><br>
+- Back up Live database (When this step is completed, a comment is added showing the backup file name or database location if backed up to another database. We have automatic backups too but this is a very up to date snapshot.
+<br><br>
+- Any specific SQL queries. (This could hold specific sql queries to change data in some tables, such as deleting a bunch or records)
+<br><br>
+- Sync Test database structure to Live database. (This allows me to synchronise items such as new tables, new fields and new field types from the test database to the live site. The data in the database isn&rsquo;t copied.)
+<br><br>
+-   Note current Live revision (This means to take note of the current revision in which is deployed to the Live site at the moment. If things go bad, I can revert to this revision very quickly thanks to Springloops.
+<br><br>
+- Deploy the Latest revision (This means to use Springloops to deploy any recent work to the live site. The new current revision number is noted in a comment)
+<br><br>
+- Any file or folder permissions (This usually means setting Write permissions to new images folder)
+<br><br>
+- Test live site (This would be a test of any of the items that have been added or changed. It usually goes hand in hand with the next item, I write the email to the owner as I test each item)
+<br><br>
+- Update the owner. (I usually email the owner with the subject &lsquo;Application updated&rsquo; showing a list of all items recently fixed or added)</p>
       </div> <!--Main Content--> 
       </div> <!--Main Content--> 
           
@@ -139,8 +157,7 @@ body {
 
  
 
-<!-- Le javascript
-    ================================================== --> 
+<!-- Le javascript --> 
 <!-- Placed at the end of the document so the pages load faster --> 
 <script src="js/jquery.js"></script> 
 <script src="js/jbootstrap.js"></script> 

@@ -6,6 +6,10 @@
 
 @import url(bootstrap.css);
 /*now my custom styles*/
+a.nodesign:link {color:  #FFF;}      /* unvisited link */
+a.nodesign:visited {color:#fff;}  /* visited link */
+a.nodesign:hover {color:#fff;}  /* mouse over link */
+a.nodesign:active {color:#fff;}  /* selected link */ 
 
 #holder {
 	min-height: 100%;
@@ -35,7 +39,7 @@ footer {
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin-bottom: -1px;
-	height: 60px;
+	height:80px;
 }
 
 

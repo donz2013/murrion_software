@@ -59,8 +59,8 @@ body {
         Cuil Greine House, Link Road,<br>
         Ballincollig, Co. Cork<br>
         <img src="../img/phone.png"> 021 4928958<br>
-        <a href="http://twitter.com/@murrion" target="_blank><img src="../img/tiny_twitter.jpg"></a> @murrion <br>
-        <a href="skype:murrion.software?call" target="_blank><img src="../img/tinyskype.png"></a>murrion.software<br>
+        <a href="http://twitter.com/@murrion" target="_blank"> <img src="../img/tiny_twitter.jpg"></a> @murrion <br>
+        <a href="skype:murrion.software?call" target="_blank"> <img src="../img/tinyskype.png"></a>murrion.software<br>
         <a href="../contact.html"><img src="../img/mailicon.png"></a> Contact Us<br>
       </p>
     </div>

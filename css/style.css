@@ -47,13 +47,18 @@ h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+#title{
+font-style: italic;
+color: #666;
+}
+
 p.textbox {
 	padding-left:20px;
 	padding-right:20px;
 	text-align:justify;
 }
 
-p.contenttext {
+p.contenttext, .contenttext {
 	padding-left:50px;
 	padding-right:50px;
 	text-align:justify;
